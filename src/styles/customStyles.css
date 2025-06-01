@@ -1,0 +1,352 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8f5;
+  color: #333;
+}
+
+/* Container for content alignment */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+/* Navbar custom styling */
+.custom-navbar {
+  background: linear-gradient(90deg, rgba(102, 187, 106, 1) 0%, rgba(67, 160, 71, 1) 100%);
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Brand Logo Styling */
+.navbar-brand-custom {
+  color: #ffffff !important;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* Navbar Links */
+.nav-link-custom {
+  color: #ffffff !important;
+  font-size: 1.5rem;
+  margin-left: 20px;
+  padding: 10px 15px;
+  font-weight: bold;
+  transition: color 0.3s ease, background 0.3s ease;
+  border-radius: 20px;
+}
+
+/* Hover effect for Navbar Links */
+.nav-link-custom:hover {
+  background-color: rgba(0, 77, 38, 0.8) !important;
+  color: #e0ffe6 !important;
+}
+
+/* Active Link Style */
+.nav-link-custom.active {
+  background-color: #2e7d32 !important;
+  color: #ffffff !important;
+}
+
+/* Landing Page */
+.carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+  filter: brightness(90%);
+  transition: filter 0.5s ease;
+}
+
+.carousel-item img:hover {
+  filter: brightness(100%);
+}
+
+.carousel-caption {
+  background: rgba(0, 77, 38, 0.75);
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+/* Cards on the Landing Page */
+.landing-cards .card {
+  background: linear-gradient(145deg, #e0ffe6, #c8f5cc);
+  border: none;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.landing-cards .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Garden Journal */
+.journal-container {
+  background-color: #e8f5e9;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.journal-form {
+  background: linear-gradient(160deg, #d0f0d6, #a5edbb);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.journal-form input,
+.journal-form select,
+.journal-form textarea {
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #4caf50;
+  transition: border-color 0.3s ease;
+}
+
+.journal-form input:focus,
+.journal-form select:focus,
+.journal-form textarea:focus {
+  border-color: #1b5e20;
+}
+
+.journal-form label {
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+.journal-form button {
+  background-color: #388e3c;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.journal-form button:hover {
+  background-color: #2e7d32;
+}
+
+/* Journal Table */
+.journal-table {
+  background-color: #f0fff4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.journal-table th {
+  background-color: #388e3c;
+  color: #ffffff;
+  padding: 12px;
+}
+
+.journal-table td {
+  padding: 12px;
+  background-color: #f8f9fa;
+}
+
+.journal-table button {
+  margin-right: 5px;
+  background-color: #1b5e20;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* Plant Care Guide */
+.care-guide-card {
+  background-color: #e8f5e9; /* Light green background */
+  border: 1px solid #a5d6a7; /* Light green border */
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  animation: fadeIn 0.5s forwards; /* Fade in effect */
+}
+
+.care-guide-card:hover {
+  background-color: #dcedc8; /* Lighter green on hover */
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+.care-guide-card h5 {
+  color: #1b5e20; /* Dark green text */
+  font-size: 1.4rem;
+}
+
+/* Medicinal Plants */
+.medicinal-container {
+  background-color: #f1f8f1; /* Light background for medicinal plants */
+  padding: 30px;
+}
+
+.medicinal-plant-card {
+  background-color: #e8f5e9; /* Light green background */
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  animation: fadeIn 0.5s forwards; /* Fade in effect */
+}
+
+.medicinal-plant-card:hover {
+  background-color: #dcedc8; /* Lighter green on hover */
+  transform: translateY(-10px); /* Lift effect on hover */
+}
+
+.medicinal-plant-card img {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* About Us */
+.about-container {
+  background-color: #f4f9f4;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+  color: #1b5e20;
+}
+
+.about-container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .carousel-item img {
+    max-height: 300px;
+  }
+
+  .landing-cards .card {
+    margin-bottom: 15px;
+  }
+
+  .journal-form,
+  .journal-table {
+    padding: 10px;
+  }
+
+  .care-guide-card {
+    padding: 10px;
+    
+  }
+}
+/* Plant Care Guide Card */
+.care-guide-card {
+  background-color: #e8f5e9; /* Light green background */
+  border: 1px solid #a5d6a7; /* Light green border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  animation: fadeIn 0.5s forwards; /* Fade in effect */
+}
+
+.care-guide-card:hover {
+  background-color: #dcedc8; /* Lighter green on hover */
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Medicinal Plants */
+.medicinal-plant-card {
+  background-color: #e8f5e9; /* Light green background */
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.medicinal-plant-card:hover {
+  background-color: #dcedc8; /* Lighter green on hover */
+  transform: translateY(-10px); /* Slight lift on hover */
+}
+
+.medicinal-plant-card img {
+  height: 200px; /* Set the height for images */
+  object-fit: cover; /* Ensure images cover the card area */
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+/* Landing Page Styles */
+.custom-carousel {
+  border-radius: 10px;
+  overflow: hidden; /* Ensures images do not overflow */
+  transition: transform 0.5s ease; /* Smooth zoom effect */
+}
+
+.custom-carousel img {
+  height: 500px; /* Set height for carousel images */
+  object-fit: cover; /* Ensures images cover the area without distortion */
+  transition: transform 0.5s ease; /* Smooth zoom effect */
+}
+
+.custom-carousel img:hover {
+  transform: scale(1.05); /* Zoom in on hover */
+}
+
+.custom-carousel .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+  border-radius: 5px;
+}
+
+.custom-card {
+  background-color: #c8e6c9; /* Light green background */
+  border: none; /* Remove default border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transform and shadow on hover */
+}
+
+.custom-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.custom-card .card-title {
+  color: #2e7d32; /* Dark green for card titles */
+}
+
+.custom-card 
+.card-text {
+  color: #1b5e20; /* Darker green for card text */
+}

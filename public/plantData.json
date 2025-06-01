@@ -1,0 +1,23 @@
+[
+    { "id": 1, "name": "Rose", "waterFrequency": 3, "careTip": "Water roses early in the morning to avoid mildew." },
+    { "id": 2, "name": "Tulip", "waterFrequency": 5, "careTip": "Tulips prefer well-drained soil, water them sparingly." },
+    { "id": 3, "name": "Fern", "waterFrequency": 2, "careTip": "Ferns need humid conditions, mist regularly." },
+    { "id": 4, "name": "Orchid", "waterFrequency": 7, "careTip": "Water orchids once a week, let them dry out between." },
+    { "id": 5, "name": "Cactus", "waterFrequency": 10, "careTip": "Cacti require very little water, once every two weeks." },
+    { "id": 6, "name": "Lily", "waterFrequency": 4, "careTip": "Lilies prefer slightly moist soil, do not overwater." },
+    { "id": 7, "name": "Basil", "waterFrequency": 3, "careTip": "Water basil regularly, but avoid overwatering." },
+    { "id": 8, "name": "Mint", "waterFrequency": 2, "careTip": "Mint thrives in moist soil, water regularly." },
+    { "id": 9, "name": "Spider Plant", "waterFrequency": 5, "careTip": "Spider plants prefer to dry out between waterings." },
+    { "id": 10, "name": "Snake Plant", "waterFrequency": 6, "careTip": "Snake plants need minimal water, let them dry out." },
+    { "id": 11, "name": "Peace Lily", "waterFrequency": 3, "careTip": "Keep soil slightly moist, but not soggy." },
+    { "id": 12, "name": "Pothos", "waterFrequency": 4, "careTip": "Water when the top inch of soil feels dry." },
+    { "id": 13, "name": "Aloe Vera", "waterFrequency": 7, "careTip": "Let the soil dry completely between waterings." },
+    { "id": 14, "name": "Jade Plant", "waterFrequency": 8, "careTip": "Water jade plants sparingly, once a week." },
+    { "id": 15, "name": "Lavender", "waterFrequency": 5, "careTip": "Lavender prefers dry soil, water sparingly." },
+    { "id": 16, "name": "Chamomile", "waterFrequency": 3, "careTip": "Water regularly, but ensure good drainage." },
+    { "id": 17, "name": "Rosemary", "waterFrequency": 6, "careTip": "Rosemary likes to dry out between waterings." },
+    { "id": 18, "name": "Sage", "waterFrequency": 5, "careTip": "Sage prefers dry conditions, water sparingly." },
+    { "id": 19, "name": "Thyme", "waterFrequency": 4, "careTip": "Thyme thrives in dry, well-drained soil." },
+    { "id": 20, "name": "Lemon Balm", "waterFrequency": 3, "careTip": "Water frequently, but avoid waterlogged soil." }
+  ]
+  

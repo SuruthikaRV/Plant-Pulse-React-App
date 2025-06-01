@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.medicinal-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #2c3e50;
+}
+
+.plant-card {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.plant-card:hover {
+  transform: scale(1.05);
+}
+
+.plant-image {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 4px solid #3498db;
+}
+
+.plant-card-body {
+  background-color: #ecf0f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.plant-title {
+  font-size: 1.5em;
+  color: #34495e;
+}
+
+.plant-benefit {
+  color: #7f8c8d;
+}
